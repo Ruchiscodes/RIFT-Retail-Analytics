@@ -17,7 +17,7 @@
 * **DevOps:** Docker
 
 ## 📊 Visual Insights
-*(Note: You can take the screenshots you just made and put them in an 'images' folder in your project!)*
+
 
 1.  **Sales Forecast:** Shows clear seasonal trends and predicted 30-day growth.
 2.  **Anomaly Detection:** Highlights significant outliers (red markers) in the sales history.
