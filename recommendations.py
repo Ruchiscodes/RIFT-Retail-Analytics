@@ -23,11 +23,11 @@ def run_recommendations():
     # Convert counts to 1 (bought) or 0 (not bought)
     def encode_units(x):
         return 1 if x >= 1 else 0
-    basket_sets = basket.applymap(encode_units)
+    basket_sets = basket.map(encode_units)
 
     print("Running FP-Growth algorithm...")
     # Find items that appear in at least 2% of all transactions
-    frequent_itemsets = fpgrowth(basket_sets, min_support=0.02, use_colnames=True)
+    frequent_itemsets = fpgrowth(basket_sets, min_support=0.005, use_colnames=True)
 
     # Generate the rules (The 'Insights')
     rules = association_rules(frequent_itemsets, metric="lift", min_threshold=1)
