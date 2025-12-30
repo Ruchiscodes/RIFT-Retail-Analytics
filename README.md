@@ -20,6 +20,8 @@
 
 
 1.  **Sales Forecast:** Shows clear seasonal trends and predicted 30-day growth.
+   <img width="1280" height="612" alt="image" src="https://github.com/user-attachments/assets/95843229-b578-428d-b181-6a302f9023f4" />
+
 2.  **Anomaly Detection:** Highlights significant outliers (red markers) in the sales history.
 
 ## ⚙️ Setup & Installation
